@@ -78,7 +78,8 @@ def say_hello(name: str) -> str:
         git commit -m "Mô tả lần sửa"
         git push
     """
-    return f"Hello, {name}! Đây là version 1."
+    return f"Hello, {name}! Đây là version 2 từ branch testing."
+
 
 
 # BÀI TẬP GỢI Ý CHO BẠN:
@@ -122,4 +123,4 @@ if __name__ == "__main__":
     #   python git_notebook.py
     #
     # Và thay đổi nội dung dưới mỗi lần commit để luyện tập.
-    print(say_hello("Linh"))
+    print(say_hello("Thế giới"))
